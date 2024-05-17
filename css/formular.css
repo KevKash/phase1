@@ -1,0 +1,17 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    background-color: lightgray;
+    color: blue;
+    width:190px;
+    float: left;
+}
+.clear {
+    background-color: darkorange;
+    width:400px;
+    height: 200px;
+    float: left;
+}
+
