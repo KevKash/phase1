@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    flex-direction:column;
+  }
+  
+  .flex-container > div {
+    background-color: #e6da38;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    width: 45%;
+  }

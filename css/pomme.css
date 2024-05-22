@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+
+ }
+
+ header {vertical-align: left;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    font-size: 2.5em;
+    margin-bottom: 200px;
+ }
+
+ nav {
+    color: rgb(58, 13, 105);
+    
+ } 
+
+ h1 {
+        color: greenyellow;
+        text-align: right;
+        border-bottom: 2px solid greenyellow;
+      }
+ main { 
+ text-align: right;
+ text-indent: 50px;
+ padding: 50px;
+ }
+
+ body {
+    background-color: rgb(182, 224, 107);
+ }
+  div {
+        width: 750px;
+        height: 800px;
+        padding: 10px;
+        border: 2px solid rgb(101, 179, 105);
+        margin: 5;
+        background-color: white;
+        }
+           
+   footer {
+
+
+ }     
+      
+ 
