@@ -1,9 +1,42 @@
-*{ font font-family: ;
+*{
+    font-family: fantasy;
+  }
+  
+  table { 
+    width: 50%;
+    margin: auto; 
+    border-collapse: collapse;
     
+  }
+  
+  td {
+
+    height: 38px;
+    width: 55px;
+    border: 2px solid black
+  }
+
+.yellow {
+background-color: yellow;
+
 }
-table
-{
-    width: 30px;
-    height: 30px;
-    border: 1px rgb(0, 0, 0);
+
+.black {
+background-color: black;
+
+}
+
+.blue {
+background-color: blue;
+
+}
+
+.grey {
+background-color: grey;
+
+}
+
+.green {background-color: green;
+
+
 }

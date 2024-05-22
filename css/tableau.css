@@ -6,7 +6,7 @@ table {
     width: 50%;  
     margin: auto; 
     border-collapse: collapse;
-    border: 3px #910 solid;
+
 }
 
 td {
@@ -40,4 +40,8 @@ caption {
 background-color: rosybrown;
 color: rgb(0, 0, 0);
 font-size: 30px;
+}
+
+body {
+    background-color: greenyellow;
 }

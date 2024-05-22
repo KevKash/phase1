@@ -2,7 +2,7 @@
   
 }
 
-.content {
+#content {
     background-color: goldenrod;
     width: 50%;
     min-height: 500px;
@@ -10,8 +10,8 @@
 }
 
 
-header{
-    height: 150px;
+body{
+    height: 950px;
     background-color: chartreuse;
 }
 
@@ -21,31 +21,22 @@ nav {
 }
 
 main::selection:first-child{
-    background-color: 
+    background-color: gold
   }
-   @media screen and (max-width: 1200px) {
+
+main section :first-child {
+background-color:red;
+
+}
+
+  @media screen and (max-width: 1200px) {
+   .content{
+     text-align: left;}
     
-    text-align: left:
+}
+    
 
-  }
-    .content {
-      background-color: rgb(42, 115, 139);
-      width: 100%;
-  }
-   
-    @media screen and (max-width: 750px) {
-    .content {
-      background-color: lightblue;
-      width: 80%;
-      
-    }
-
-    header{
-        height: 80%;
-    }
-
-  }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 800px) {
     .content {
       background-color: rgb(39, 50, 54);
 

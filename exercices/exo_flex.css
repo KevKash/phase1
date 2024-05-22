@@ -1,0 +1,12 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ 
+.section {
+    margin: 50 px;  
+    justify-content: space-around;
+
+}
+    
