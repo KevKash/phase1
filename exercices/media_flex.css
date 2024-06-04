@@ -9,7 +9,7 @@
     background-color: orange;
     margin: auto;
 }
-main > section:first-child {
+main :first-child {
     display: flex;
     flex-wrap: wrap;
 
