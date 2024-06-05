@@ -1,80 +1,76 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 
-section > div{
-    width: 150px;
-    height: 150px;
-
-    
+.hautdepage {
+  width: 150px;
+  height: 150px;
 }
 
 .square1 {
-    border: 2px solid black;
-    background-color: green;
-    border-radius: 10px 30px 50px 60px;
-    
+  border: 2px solid black;
+  background-color: green;
+  border-radius: 10px 30px 50px 60px;
 }
 
 .square2 {
-    background-color: rgb(15, 250, 250);
-    border-radius: 50px 0px;
-    border: 2px solid black;
+  background-color: rgb(15, 250, 250);
+  border-radius: 50px 0px;
+  border: 2px solid black;
 }
 
-.square3{
-    background-color: rgb(66, 241, 183);
-    border-radius: 100px 100px;
-    border: 2px solid black;
+.square3 {
+  background-color: rgb(66, 241, 183);
+  border-radius: 100px 100px;
+  border: 2px solid black;
 }
 
-.square4{
-    background-color: rgba(231, 142, 58, 0.473);
-    border-radius: 20px 50px;
-    border: 2px solid black;
+.square4 {
+  background-color: rgba(231, 142, 58, 0.473);
+  border-radius: 20px 50px;
+  border: 2px solid black;
 }
-
 
 section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1119.98px) {
+  section {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
-    margin: auto;
-    justify-content: space-evenly;
+  }
+  section > div {
+    width: 100px;
+    height: 100px;
+  }
 }
 
-@media (max-width:1119.98px){
-    section{
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-    }section>div{
-        width: 100px;
-        height: 100px;}
-}
-
-@media(max-width:960px){
-section{
-width: 100%;
-}
-section>div{
+@media (max-width: 960px) {
+  section {
+    width: 100%;
+  }
+  section > div {
     width: 300px;
     height: 300px;
-}
-.square1{
+  }
+  .square1 {
     background-color: brown;
-}
-.square2{
+  }
+  .square2 {
     background-color: blueviolet;
-    
-}
-.square3{
+  }
+  .square3 {
     background-color: aliceblue;
-}
-.square4{
+  }
+  .square4 {
     background-color: bisque;
+  }
 }
-}
-

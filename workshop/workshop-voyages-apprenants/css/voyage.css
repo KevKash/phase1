@@ -1,0 +1,117 @@
+* {
+  font-family: "Kufam", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+/*************** HEADER ***************/
+a{
+  text-decoration: none;
+}
+
+img{
+  display:block;
+  
+  /*display:inline-block;*/
+}
+header {
+  background: linear-gradient(to right, rgb(46, 57, 96), rgb(169, 209, 249));/*couleur de fond de header*/
+  display: flex;/*aligne les elements de header sur la meme ligne*/
+  height: 100px;/*hauteur de header*/
+  justify-content: space-between;/*espace entre les éléments de header*/
+  align-items: center;/*centre les element au milieu */
+}
+
+.list-item {
+  display: flex;/*ligne.20*/
+  list-style: none;/*style de la list*/
+  align-items: center;/*ligne.23*/
+}
+
+.item{
+  padding: 15px;/*la marge a l'interieur de la classe "item"*/
+}
+
+.header-left{
+  display: flex;/*ligne.20*/
+  align-items: center;/*ligne.23*/
+}
+
+.barre-info{
+  /*height: 45px;*/
+  border: 4px solid whitesmoke;/*couleur des bordurs*/
+  /*width: 100%;*/
+  background-color: bisque;/*couleur de fond de "barre-info"*/
+}
+/*************** NAV ***************/
+
+/*************** END NAV ***************
+/*************** END HEADER ***************/
+
+
+/**************BODY********************/
+
+/***************END-BODY***************/
+/*************** MAIN ***************/
+main{
+  width: 1400px;/*la largeur de main*/
+  margin: auto;/*marge auto de main sur son parent*/
+  align-items: center;/*aligne les elements dans main*/
+}
+section{
+  border-radius: 10px;/*la rondeur des bords en px*/
+  display: flex;/*alligner les éléments sur la meme ligne*/
+  padding: 10px;/*un marge a l'interieur du bloc*/
+  align-items: center;/*aligne les élément au centre*/
+  margin: 20px;/*marge entre les section et son parent*/
+}
+
+section>div,
+section>p{
+  width: 50%;/*largeur de la balise <p>*/
+}
+div>img{
+  border-radius: 50%;/*ligne.63*/
+  margin: auto;/*ligne59*/
+  
+}
+section:first-child{
+  background-color: rgb(81, 81, 142);/*couleur de fond de la 1er section*/
+}
+section:nth-of-type(2){
+  background-color: rgb(137, 137, 231);/*couleur de fond de la 2eme*/
+}
+section:last-child{
+  background-color: rgb(44, 44, 76);/*couleur de fond de la 3eme*/
+}
+/*************** END MAIN ***************/
+
+/*************** ASIDE LEFT ***************/
+
+/*************** END ASIDE LEFT***************/
+
+/*************** SECTION 1 ***************/
+
+/*************** END SECTION 1 ***************/
+
+/*************** SECTION 2 ***************/
+
+/*************** END SECTION 2 ***************/
+
+/*************** SECTION 3 ***************/
+
+/*************** END SECTION 3 ***************/
+
+/*************** ASIDE RIGHT ***************/
+
+/*************** END ASIDE RIGHT ***************/
+
+/*************** FOOTER ***************/
+
+/*************** END FOOTER ***************/
+/**************page POSITION***************/
+
+/*************** MEDIAQUERY ***************
+
+/*************** END MEDIAQUERY ***************
