@@ -1,7 +1,7 @@
 for (var i = 1; i <= 10; i += 2) {
   document.write("<p> instruction exécutée : " + i + "</p>");
 }
-WHILE SERT A MAINTENIR LA BOIte de diallogue
+/*WHILE SERT A MAINTENIR LA BOIte de diallogue*/
 
 for (var j = 1; j <= 10; j++) {
   document.write("<p> Instruction executée :" + j + "</p>");
@@ -15,7 +15,7 @@ while (monCompte == false) {
   temps++;
 }
 document.write("<h3> Sous sur mon compte : " + monCompte + "</h3>");
-document.write("<h3> Jusqu'a 2000$ , il me faut :" + temps + "mois </h3>");//
+document.write("<h3> Jusqu'a 2000$ , il me faut :" + temps + "mois </h3>"); //
 
 /*var age = window.prompt("Veuillez saisir un age compris entre 3-120 (ans)");
 age >= 4;
