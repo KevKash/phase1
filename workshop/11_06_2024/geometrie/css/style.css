@@ -1,0 +1,63 @@
+body {
+  height: 1200px;
+}
+
+.carre {
+  width: 80px;
+  height: 80px;
+}
+
+.conteneur {
+  align-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
+  position: fixed;
+  left: px;
+  z-index: 2;
+}
+
+.rond {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  background-color: rgb(132, 198, 251);
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  z-index: 1;
+}
+
+#yellow {
+  background-color: rgb(237, 222, 86);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#blue {
+  background-color: blue;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#red {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#green {
+  background-color: green;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}

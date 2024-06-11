@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Valeurs finales</title>
+
+	<style media="screen">
+		th, td{
+			border: 1px solid;
+		}
+	</style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Mitra Izadi</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">22264000.0000000</mso:Order>
+<mso:CrÈÈle msdt:dt="string">2022-01-04T07:23:24Z</mso:CrÈÈle>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Mitra Izadi</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x01010043D02664A89AAD48A0D0F75A37AE079A</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:MediaLengthInSeconds msdt:dt="string"></mso:MediaLengthInSeconds>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+	<h1>Valeurs finales</h1>
+	<h2>Examinez le programme valeurs.js ci-dessous :</h2>
+	<pre>
+		var nb1 = Number(prompt("Entrez nb1 :"));
+		var nb2 = Number(prompt("Entrez nb2 :"));
+		var nb3 = Number(prompt("Entrez nb3 :"));
+
+		if (nb1 > nb2){
+			nb1 = nb3 * 2;
+		}else{
+			nb1++;
+			if(nb2 > nb3){
+				nb1 = nb1 + nb3 *3;
+			}else{
+				nb1 = 0;
+				nb3 = nb3 * 2 + nb2;
+			}
+		}
+	</pre>
+
+	<h2>Avant de l'ex√©cuter, tentez de pr√©voir les valeurs finales des variables nb1,nb2 et nb3 en fonction de leurs valeurs initiales et compl√©tez le tableau ci-dessous.</h2>
+		<table>
+			<tr>
+				<th>valeurs initiales</th>
+				<th>valeur finale nb1</th>
+				<th>valeur finale nb2</th>
+				<th>valeur finale nb3</th>
+			</tr>
+			<tr>
+				<td>nb1=nb2=nb3=4</td>
+				<td><!--0--></td>
+				<td><!--4--></td>
+				<td><!--12--></td>
+			</tr>
+			<tr>
+				<td>nb1=4, nb2=3, nb3=2</td>
+				<td><!--4--></td>
+				<td><!--3--></td>
+				<td><!--2--></td>
+			</tr>
+			<tr>
+				<td>nb1=2, nb2=4, nb3=0</td>
+				<td><!--3--></td>
+				<td><!--4--></td>
+				<td><!--0--></td>
+			</tr>
+		</table>
+
+	<h2>R√©sultat :</h2>
+<script type="text/javascript" src="09.js" ></script>
+</body>
+</html>
